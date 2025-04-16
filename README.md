@@ -1,24 +1,39 @@
 AUTHORING: 
+
 Ravindu Gunasekara
+
 CMSC313 @ 14:30 Mo/We
 
+
 PURPOSE OF SOFTWARE: 
+
 Perform the matrix calculation, D = A + 3B * C^T in both C++ and C99.
 
+
 FILES:
+
 matrix.c (C99 implementation)
+
 matrix.cpp (C++ implementation)
+
 README.md (homework description)
 
+
 BUILD INSTRUCTIONS:
+
 Run these in MSYS2 UCRT64:
 
+
 C++: gcc -o matrixcpp matrix.cpp -lstdc++
+
 C: gcc -o matrixc matrix.c
+
 
 Then ./matrixcpp or ./matrixc
 
+
 TESTING METHODOLOGY:
+
 I first solved the calculation by hand to know what
 the matrix D is supposed to be. Then ran the code
 in https://www.onlinegdb.com/. After getting the 
